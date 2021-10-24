@@ -4,13 +4,32 @@ body {
 
 body .container {
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 body .mainLook {
   background: #393939;
   border-radius: 10px;
   width: 1011px;
-  height: 615px;
-  border: 7px dashed #FDFD96;
+  height: 902px;
+  border: 2px dashed #FDFD96;
+}
+
+body .rightSide img {
+  width: 732px;
+  height: 780px;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=main.css.map */

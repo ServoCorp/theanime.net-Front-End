@@ -2,12 +2,24 @@ body {
     background: #333333;
 .container {
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
      }
 .mainLook {
     background: #393939;
     border-radius: 10px;
     width: 1011px;
-    height: 615px;
-    border: 7px dashed #FDFD96;
+    height: 902px;
+    border: 2px dashed #FDFD96;
     }
+.rightSide {
+    img{
+    width: 732px;
+    height: 780px;
+    border-radius: 10px;
+    }
+}
 }
